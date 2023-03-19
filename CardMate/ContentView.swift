@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  GiftMate
+//  CardMate
 //
 //  Created by Martin Rist on 19/03/2023.
 //
@@ -10,11 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "gift")
+            Image(systemName: "giftcard")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
                 .padding(4)
-            Text("Hello, GiftMate!")
+            Text("Hello, CardMate!")
         }
         .padding()
     }

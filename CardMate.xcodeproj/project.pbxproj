@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F87538729C7767C007A44D5 /* GiftMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87538629C7767C007A44D5 /* GiftMateApp.swift */; };
+		2F87538729C7767C007A44D5 /* CardMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87538629C7767C007A44D5 /* CardMateApp.swift */; };
 		2F87538929C7767C007A44D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87538829C7767C007A44D5 /* ContentView.swift */; };
 		2F87538B29C7767D007A44D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F87538A29C7767D007A44D5 /* Assets.xcassets */; };
 		2F87538E29C7767D007A44D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F87538D29C7767D007A44D5 /* Preview Assets.xcassets */; };
-		2F87539829C7767D007A44D5 /* GiftMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87539729C7767D007A44D5 /* GiftMateTests.swift */; };
-		2F8753A229C7767D007A44D5 /* GiftMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8753A129C7767D007A44D5 /* GiftMateUITests.swift */; };
-		2F8753A429C7767D007A44D5 /* GiftMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8753A329C7767D007A44D5 /* GiftMateUITestsLaunchTests.swift */; };
+		2F87539829C7767D007A44D5 /* CardMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87539729C7767D007A44D5 /* CardMateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,26 +22,16 @@
 			remoteGlobalIDString = 2F87538229C7767C007A44D5;
 			remoteInfo = GiftMate;
 		};
-		2F87539E29C7767D007A44D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F87537B29C7767C007A44D5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F87538229C7767C007A44D5;
-			remoteInfo = GiftMate;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F87538329C7767C007A44D5 /* GiftMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F87538629C7767C007A44D5 /* GiftMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftMateApp.swift; sourceTree = "<group>"; };
+		2F87538329C7767C007A44D5 /* CardMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F87538629C7767C007A44D5 /* CardMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMateApp.swift; sourceTree = "<group>"; };
 		2F87538829C7767C007A44D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F87538A29C7767D007A44D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F87538D29C7767D007A44D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2F87539329C7767D007A44D5 /* GiftMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F87539729C7767D007A44D5 /* GiftMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftMateTests.swift; sourceTree = "<group>"; };
-		2F87539D29C7767D007A44D5 /* GiftMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F8753A129C7767D007A44D5 /* GiftMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftMateUITests.swift; sourceTree = "<group>"; };
-		2F8753A329C7767D007A44D5 /* GiftMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F87539329C7767D007A44D5 /* CardMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F87539729C7767D007A44D5 /* CardMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,22 +49,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F87539A29C7767D007A44D5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2F87537A29C7767C007A44D5 = {
 			isa = PBXGroup;
 			children = (
-				2F87538529C7767C007A44D5 /* GiftMate */,
-				2F87539629C7767D007A44D5 /* GiftMateTests */,
-				2F8753A029C7767D007A44D5 /* GiftMateUITests */,
+				2F87538529C7767C007A44D5 /* CardMate */,
+				2F87539629C7767D007A44D5 /* CardMateTests */,
 				2F87538429C7767C007A44D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +64,21 @@
 		2F87538429C7767C007A44D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F87538329C7767C007A44D5 /* GiftMate.app */,
-				2F87539329C7767D007A44D5 /* GiftMateTests.xctest */,
-				2F87539D29C7767D007A44D5 /* GiftMateUITests.xctest */,
+				2F87538329C7767C007A44D5 /* CardMate.app */,
+				2F87539329C7767D007A44D5 /* CardMateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F87538529C7767C007A44D5 /* GiftMate */ = {
+		2F87538529C7767C007A44D5 /* CardMate */ = {
 			isa = PBXGroup;
 			children = (
-				2F87538629C7767C007A44D5 /* GiftMateApp.swift */,
+				2F87538629C7767C007A44D5 /* CardMateApp.swift */,
 				2F87538829C7767C007A44D5 /* ContentView.swift */,
 				2F87538A29C7767D007A44D5 /* Assets.xcassets */,
 				2F87538C29C7767D007A44D5 /* Preview Content */,
 			);
-			path = GiftMate;
+			path = CardMate;
 			sourceTree = "<group>";
 		};
 		2F87538C29C7767D007A44D5 /* Preview Content */ = {
@@ -110,29 +89,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2F87539629C7767D007A44D5 /* GiftMateTests */ = {
+		2F87539629C7767D007A44D5 /* CardMateTests */ = {
 			isa = PBXGroup;
 			children = (
-				2F87539729C7767D007A44D5 /* GiftMateTests.swift */,
+				2F87539729C7767D007A44D5 /* CardMateTests.swift */,
 			);
-			path = GiftMateTests;
-			sourceTree = "<group>";
-		};
-		2F8753A029C7767D007A44D5 /* GiftMateUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2F8753A129C7767D007A44D5 /* GiftMateUITests.swift */,
-				2F8753A329C7767D007A44D5 /* GiftMateUITestsLaunchTests.swift */,
-			);
-			path = GiftMateUITests;
+			path = CardMateTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F87538229C7767C007A44D5 /* GiftMate */ = {
+		2F87538229C7767C007A44D5 /* CardMate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F8753A729C7767D007A44D5 /* Build configuration list for PBXNativeTarget "GiftMate" */;
+			buildConfigurationList = 2F8753A729C7767D007A44D5 /* Build configuration list for PBXNativeTarget "CardMate" */;
 			buildPhases = (
 				2F87537F29C7767C007A44D5 /* Sources */,
 				2F87538029C7767C007A44D5 /* Frameworks */,
@@ -142,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = GiftMate;
+			name = CardMate;
 			productName = GiftMate;
-			productReference = 2F87538329C7767C007A44D5 /* GiftMate.app */;
+			productReference = 2F87538329C7767C007A44D5 /* CardMate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2F87539229C7767D007A44D5 /* GiftMateTests */ = {
+		2F87539229C7767D007A44D5 /* CardMateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F8753AA29C7767D007A44D5 /* Build configuration list for PBXNativeTarget "GiftMateTests" */;
+			buildConfigurationList = 2F8753AA29C7767D007A44D5 /* Build configuration list for PBXNativeTarget "CardMateTests" */;
 			buildPhases = (
 				2F87538F29C7767D007A44D5 /* Sources */,
 				2F87539029C7767D007A44D5 /* Frameworks */,
@@ -160,28 +130,10 @@
 			dependencies = (
 				2F87539529C7767D007A44D5 /* PBXTargetDependency */,
 			);
-			name = GiftMateTests;
+			name = CardMateTests;
 			productName = GiftMateTests;
-			productReference = 2F87539329C7767D007A44D5 /* GiftMateTests.xctest */;
+			productReference = 2F87539329C7767D007A44D5 /* CardMateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2F87539C29C7767D007A44D5 /* GiftMateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2F8753AD29C7767D007A44D5 /* Build configuration list for PBXNativeTarget "GiftMateUITests" */;
-			buildPhases = (
-				2F87539929C7767D007A44D5 /* Sources */,
-				2F87539A29C7767D007A44D5 /* Frameworks */,
-				2F87539B29C7767D007A44D5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2F87539F29C7767D007A44D5 /* PBXTargetDependency */,
-			);
-			name = GiftMateUITests;
-			productName = GiftMateUITests;
-			productReference = 2F87539D29C7767D007A44D5 /* GiftMateUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +152,9 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 2F87538229C7767C007A44D5;
 					};
-					2F87539C29C7767D007A44D5 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 2F87538229C7767C007A44D5;
-					};
 				};
 			};
-			buildConfigurationList = 2F87537E29C7767C007A44D5 /* Build configuration list for PBXProject "GiftMate" */;
+			buildConfigurationList = 2F87537E29C7767C007A44D5 /* Build configuration list for PBXProject "CardMate" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +167,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F87538229C7767C007A44D5 /* GiftMate */,
-				2F87539229C7767D007A44D5 /* GiftMateTests */,
-				2F87539C29C7767D007A44D5 /* GiftMateUITests */,
+				2F87538229C7767C007A44D5 /* CardMate */,
+				2F87539229C7767D007A44D5 /* CardMateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +190,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F87539B29C7767D007A44D5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,7 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F87538929C7767C007A44D5 /* ContentView.swift in Sources */,
-				2F87538729C7767C007A44D5 /* GiftMateApp.swift in Sources */,
+				2F87538729C7767C007A44D5 /* CardMateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F87539829C7767D007A44D5 /* GiftMateTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F87539929C7767D007A44D5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F8753A429C7767D007A44D5 /* GiftMateUITestsLaunchTests.swift in Sources */,
-				2F8753A229C7767D007A44D5 /* GiftMateUITests.swift in Sources */,
+				2F87539829C7767D007A44D5 /* CardMateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +215,8 @@
 /* Begin PBXTargetDependency section */
 		2F87539529C7767D007A44D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F87538229C7767C007A44D5 /* GiftMate */;
+			target = 2F87538229C7767C007A44D5 /* CardMate */;
 			targetProxy = 2F87539429C7767D007A44D5 /* PBXContainerItemProxy */;
-		};
-		2F87539F29C7767D007A44D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2F87538229C7767C007A44D5 /* GiftMate */;
-			targetProxy = 2F87539E29C7767D007A44D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +342,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GiftMate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CardMate/Preview Content\"";
 				DEVELOPMENT_TEAM = NRU5YEF35L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +356,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.GiftMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.CardMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GiftMate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CardMate/Preview Content\"";
 				DEVELOPMENT_TEAM = NRU5YEF35L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +385,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.GiftMate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.CardMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -478,12 +404,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.GiftMateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.CardMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiftMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiftMate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardMate";
 			};
 			name = Debug;
 		};
@@ -498,55 +424,19 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.GiftMateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.CardMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiftMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiftMate";
-			};
-			name = Release;
-		};
-		2F8753AE29C7767D007A44D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NRU5YEF35L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.GiftMateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GiftMate;
-			};
-			name = Debug;
-		};
-		2F8753AF29C7767D007A44D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NRU5YEF35L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.martinrist.GiftMateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GiftMate;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardMate";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F87537E29C7767C007A44D5 /* Build configuration list for PBXProject "GiftMate" */ = {
+		2F87537E29C7767C007A44D5 /* Build configuration list for PBXProject "CardMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F8753A529C7767D007A44D5 /* Debug */,
@@ -555,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F8753A729C7767D007A44D5 /* Build configuration list for PBXNativeTarget "GiftMate" */ = {
+		2F8753A729C7767D007A44D5 /* Build configuration list for PBXNativeTarget "CardMate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F8753A829C7767D007A44D5 /* Debug */,
@@ -564,20 +454,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F8753AA29C7767D007A44D5 /* Build configuration list for PBXNativeTarget "GiftMateTests" */ = {
+		2F8753AA29C7767D007A44D5 /* Build configuration list for PBXNativeTarget "CardMateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F8753AB29C7767D007A44D5 /* Debug */,
 				2F8753AC29C7767D007A44D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2F8753AD29C7767D007A44D5 /* Build configuration list for PBXNativeTarget "GiftMateUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2F8753AE29C7767D007A44D5 /* Debug */,
-				2F8753AF29C7767D007A44D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

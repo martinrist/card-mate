@@ -1,2 +1,3 @@
-# gift-mate
-An iOS app to track greetings cards and gifts sent to friends and relatives
+# card-mate
+
+An iOS app to track greetings cards sent to friends and relatives
