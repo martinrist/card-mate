@@ -11,7 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "giftcard")
-                .imageScale(.large)
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100)
                 .foregroundColor(.accentColor)
                 .padding(4)
             Text("Hello, CardMate!")
